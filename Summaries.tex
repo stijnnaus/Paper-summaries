@@ -1,10 +1,13 @@
+\documentclass{article}
+\usepackage{fullpage}
+
 \begin{document}
 
-\toc
+\tableofcontents
 
 \section{First 5}
 
-\subsection{\textit{“Continuing emissions of methyl chloroform from Europe”}, Krol et al (2003)}}
+\subsection{\textit{“Continuing emissions of methyl chloroform from Europe”}, Krol et al (2003)}
 Using TM5, they show that the evolution (unexpectedly slow decline) of MCF is explained better by additional emissions over certain parts of Europe (Total $>$ 20 Gg/yr, compared to assumed $<$ 1 Gg/yr), than by a negative OH trend. This is mainly because they better explain the relatively large spatial (vertical) and temporal variability. These emissions are mostly important to determine the OH distribution and subsequently strongly influence the NH/SH ratio. Lot of info on MCF.
 Why would MCF emissions be so much restricted to certain periods in the year? 
 
@@ -16,13 +19,14 @@ Adjoint approach is explained: Release a pulse at a measurement station and inte
 
 \subsection{\textit{"Small interannual variability of global atmospheric hydroxyl radical”}, Montzka et al (2011)}
 This study estimates a small interannual variability in OH (derived from MCF) compared to previous studies. This is probably because it looks at a period ($>$ 1997) where MCF emissions steeply declined, so that emissions are well known. Subsequently, the high previous estimates are likely because emissions of MCF are less well known than assumed: OH interannual variability is highly sensitive to MCF emissions and their timing.
+
 5 more tracers were also used to validate estimates from MCF. Though their sources are much less well known, the results are similar to those from MCF, especially after 1997.
 
 \subsection{\textit{“A multi-year methane inversion using SCIAMACHY, accounting for systematic errors using TCCON measurements”}, Houweling et al. (2014)}
 The study addresses the poorly constrained methane budget and especially its distribution in the tropics. This is done by inverse modelling, using satellite data. Satellite data has good coverage compared to ground-based data, but is known to contain large systematic errors.
 Previous studies introduced bias parameters to reduce the difference between model results and observations, possibly transmitting systematic errors in the satellite data into models. For this reason, ground-based measurements are used to identify the systematic errors. 
 
-\subsection{“Observational evidence for interhemispheric hydroxyl-radical parity”, Patra et al. (2014)}
+\subsection{\textit{“Observational evidence for interhemispheric hydroxyl-radical parity”}, Patra et al. (2014)}
 The meridional OH gradient is important for estimating hemispheric source and sink magnitudes of gases and aerosols that interact with OH (e.g. NO$_x$, methane). Most models predict an OH ratio NH/SH significantly higher than one, mostly biased by high/low ozone in NH/SH (OH source). Models based on MCF show a ratio close to one and some models show ratios even lower.
 
 In this study they simulate MCF and SF$_6$ using 2 models with different NH/SH ratios (0.87 and 1.18). The temporal evolution of MCF is simulated well and not significantly differently by both, suggesting that global OH concentrations are well known. The MCF gradient is better captured by the lower ratio. Source distribution and model distribution do not significantly affect the MCF gradient. The gradient can be simulated by the high ratio, if increased chemical loss and increased emissions are considered, but this reduces the match with the seasonal cycle. This shows that emissions in 2004-2011 are quite well known. Sensitivity experiments to the OH NH/SH gradient are carried out and indicate a predicted ratio of 0.97 $\pm$ 0.12.
@@ -31,115 +35,127 @@ Overall: Further investigation is required. Also, using the higher ratio require
 
 \section{OH modelling and observations}
 
-\subsection{“Global OH trend inferred from methylchloroform measurements”, Krol et al. (1998)}
-Uses early MCF data to infer a trend in OH. They find an OH trend of ~+0.5$%$/yr. They want to verify the 1995 Prinn et al. paper, which is known to have some issues.
-They impose an OH field and simulate what the MCF would be. Using a Monte Carlo ensemble approach, they determine the best OH field. NOTE: Typical uncertainties in the generated OH field can be up to 25$%$! Of course, since they use MOGUNTIA..
+\subsection{\textit{“Global OH trend inferred from methylchloroform measurements”}, Krol et al. (1998)}
+Uses early MCF data to infer a trend in OH. They find an OH trend of ~+0.5$\%$/yr. They want to verify the 1995 Prinn et al. paper, which is known to have some issues.
+They impose an OH field and simulate what the MCF would be. Using a Monte Carlo ensemble approach, they determine the best OH field. NOTE: Typical uncertainties in the generated OH field can be up to 25$\%$! Of course, since they use MOGUNTIA..
 Important uncertainties: No NMHCs, uncertain OH quantum yield from O3.
 They note already here that OH estimates are sensitive to emission estimates (and other changes in the MCF budget). Furthermore they study what atmospheric processes could cause an increase in OH concentrations. In a rough sensitivity analysis they note that the OH increase could be explained by reported (but sometimes not so well-documented) changes in the atmosphere.
 
-\subsection{“New observational constraints on atmospheric hydroxyl on global and hemispheric scales”, Montzka et al. (2000)}
+\subsection{\textit{“New observational constraints on atmospheric hydroxyl on global and hemispheric scales”}, Montzka et al. (2000)}
 The reduction in MCF emissions has shifted the most prominent process affecting MCF concentrations from anthropogenic emissions to atmospheric (OH) removal, providing an unique opportunity to constrain OH concentrations. In addition the interhemispheric MCF gradient has reduced, making uncertain cross-ITCZ transport less important. First result is a firm upper limit to MCF lifetime (5.5 ± 0.1 yr, zero emissions case). The best estimate is now 5.2 (- 0.2, + 0.3) yr (global) and 4.9 (-0.2, +0.3) yr (SH). This suggests additional OH loss in the SH. Estimates are obtained from a very simple box model.
 
-\subsection{“Three-dimensional climatological distribution of OH: Update and evaluation”, Spivokovski (2000)}
+\subsection{\textit{“Three-dimensional climatological distribution of OH: Update and evaluation”}, Spivokovski (2000)}
 Provides an overview of the research into OH before 2000 (including a ridiculous amount of references). They determine an OH field that can be retrieved in electronic form upon emailing, so I guess this is one of THE papers where modellers (used to) get their OH fields. Bit too in-depth to read completely.
-\subsection{“Evidence for substantial variations of atmospheric hydroxyl radicals in the past two decades”, Prinn et al. (2001)
+
+\subsection{\textit{“Evidence for substantial variations of atmospheric hydroxyl radicals in the past two decades”}, Prinn et al. (2001)}
 A study that uses updated MCF emissions and an 8-box box model, involving inverse modelling, to determine the global OH distribution. Reports a negative trend in the OH concentrations from 1978-2000 (divided in + from 1978-1988 and – from 1988-2000). Also reports insignificantly higher OH in SH than in NH. An imposed zero-trend in OH suggests that for this to be the truth, MCF emissions have to be significantly higher than is allowed from the Montreal protocol. (~ +20 Gg/yr) (Which is the case, see Krol et al. (2003)).
 
-\subsection{“Critical evaluation of emissions of potential new gases for OH estimation”, Huang and Prinn (2002)}
+\subsection{\textit{“Critical evaluation of emissions of potential new gases for OH estimation”}, Huang and Prinn (2002)}
 They look at using H(C)FCs as potential OH tracers. Initially they calculate the difference between observations and the modelling results when using MCF to determine OH. HFC-134a has good agreement, HCFC-141b less and HCFC-142b, suggesting an underestimation of their emissions in their emission inventory. They use a Kalman filter to obtain optimal emissions. They use AGAGE and CMDL data: since these two are completely separate datasets, systematic differences between optimized and bottom-up emissions estimates are not likely to be due to errors in atmospheric measurements. In the end the conclusion is that these gases are currently not useful for estimating OH: emissions are very uncertain, because they are mostly used in long-lived applications such as refrigerators.
 
-\subsection{“A discussion on the determination of atmospheric OH and its trends”, Jöckel et al. (2003)}
-They consider some ideal tracer for OH released at several sites on Earth and use this ‘Gedanken experiment’ to determine the maximum usefulness of some ideal tracer for OH. Even with an ideal tracer, the dynamical factors affecting OH and the tracer do not allow determining interannual variability in OH < 1$%$. Using different types of tracer data, they show that adding total column information to surface data at several dedicated measurements stations significantly improves estimates.
+\subsection{\textit{“A discussion on the determination of atmospheric OH and its trends”}, Jöckel et al. (2003)}
+They consider some ideal tracer for OH released at several sites on Earth and use this ‘Gedanken experiment’ to determine the maximum usefulness of some ideal tracer for OH. Even with an ideal tracer, the dynamical factors affecting OH and the tracer do not allow determining interannual variability in OH < 1$\%$. Using different types of tracer data, they show that adding total column information to surface data at several dedicated measurements stations significantly improves estimates.
 
-\subsection{“Can the variability in tropospheric OH be deduced from measurements of 1,1,1-trichloroethane (methyl chloroform)?”, Krol and Lelieveld (2003)}
+\subsection{\textit{“Can the variability in tropospheric OH be deduced from measurements of 1,1,1-trichloroethane (methyl chloroform)?”}, Krol and Lelieveld (2003)}
 Discusses some of the (then-)recent literature and a previous discussion between Prinn and Krol (Prinn used wrong emissions). Uses MOGUNTIA (and TM3 for some parametrizations) to simulate temporal and spatial variations in the OH field. They also find large interannual variability in OH, but try to attribute it to the method, rather than to real-world processes. They find the interannual variability is very sensitive to perturbed emissions (even within 1-sigma) and interhemispheric transport.
 They also find an OH increase in the 80s and a decrease in the 90s, but end up at higher OH levels than Prinn. They find interhemispheric OH parity. They point out that the difference in N/S OH ratio between atmospheric chemistry transport models and inverse models might be because of the ITCZ, which is not located at the equator but does divide the NH from the SH. Deviations from other inverse models are ascribed to their lower resolution and simplified interhemispheric MCF transport.
 
-\subsection{“Recent changes in the air-sea exchange of methyl chloroform”, Wennberg et al. (2004)}
-In relation to previous findings that MCF decreased too slowly, suggesting additional anthropogenic emissions (Krol) or a reduction in OH (Prinn), this study provides mid- to high-latitudinal oceanic release of MCF as part (~30$%$) of the solution. Because the lifetime of MCF in cold water is long (25C: 1 yr; 3C: 50 yr), and because the atmospheric concentration has plummeted, one could, at high latitudes, expect an MCF flux from the ocean to the atmosphere. There are very few measurements of ocean MCF to validate the model: especially the loss rate at low temperatures is uncertain. But the concept makes sense, so it is something to keep in mind.
+\subsection{\textit{“Recent changes in the air-sea exchange of methyl chloroform”}, Wennberg et al. (2004)}
+In relation to previous findings that MCF decreased too slowly, suggesting additional anthropogenic emissions (Krol) or a reduction in OH (Prinn), this study provides mid- to high-latitudinal oceanic release of MCF as part (~30$\%$) of the solution. Because the lifetime of MCF in cold water is long (25C: 1 yr; 3C: 50 yr), and because the atmospheric concentration has plummeted, one could, at high latitudes, expect an MCF flux from the ocean to the atmosphere. There are very few measurements of ocean MCF to validate the model: especially the loss rate at low temperatures is uncertain. But the concept makes sense, so it is something to keep in mind.
 
-\subsection{“On the role of hydroxyl radicals in the self-cleansing capacity of the atmosphere”, Lelieveld et al. (2004)}
+\subsection{\textit{“On the role of hydroxyl radicals in the self-cleansing capacity of the atmosphere”}, Lelieveld et al. (2004)}
 Nice review of the varying factors affecting OH. One of the main points is that while global OH has remained remarkably constant, strong regional variations are likely, because the spatially variable NOx (lifetime days) affects the recycling probability of OH. They point out the interesting fact that trends in OH are very similar to trends in MCF, while the latter is mainly affected by MCF emissions, and the former not at all, indicating that the correlation is likely a consequence of errors in estimating MCF emissions.
 
-\subsection{“Evidence for variability of atmospheric hydroxyl radicals over the past quarter century”, Prinn et al. (2005)}
+\subsection{\textit{“Evidence for variability of atmospheric hydroxyl radicals over the past quarter century”}, Prinn et al. (2005)}
 An extension on the previous study, which shows that after the minimum in OH in 1998, in 2003 it had recovered to 1979 levels. They do not consider (Krol, 2003) emissions of >20 Gg/yr. This is the strong interannual variability study. They make a connection between OH variations and biomass burning, which affects it main sink (CO).
 
-\subsection{“Two decades of OH variability as inferred from inversion of atmospheric transport and chemistry of methyl chloroform”, Bousquet (2005)}
+\subsection{\textit{“Two decades of OH variability as inferred from inversion of atmospheric transport and chemistry of methyl chloroform”}, Bousquet (2005)}
 He points out some inconsistencies between OH as derived from MCF and the OH field necessary for methane, since the former contains known modelling biases.
 
 \section{MCF production and emissions}
 
-\subsection{“The production and global distribution of emissions to the atmosphere of 1,1,1-trichloroethan (Methyl chloroform)”, Midgley & McCulloch (1995)}
+\subsection{\textit{“The production and global distribution of emissions to the atmosphere of 1,1,1-trichloroethan (Methyl chloroform)”}, Midgley $\&$ McCulloch (1995)}
 MCF emissions consist of a quick part (MCF released in under 6 months after production, e.g. degreasing), a medium part (6-12 months) and slow emissions (>12 months). During times of high MCF production quick emissions dominated, but after reduction (1993) and eventually diminishment (1997) of the production, stockpiling and other slower emissions became more important. Therefore, despite being able to constrain the MCF production (= integrated emissions) accurately, the timing of the emissions knows large uncertainties.
 
-\subsection{“Emissions of methyl chloroform from biomass burning and the tropospheric methyl chloroform budget”, Rudolph et al. (2000)}
+\subsection{\textit{“Emissions of methyl chloroform from biomass burning and the tropospheric methyl chloroform budget”}, Rudolph et al. (2000)}
 They collected 7  samples (10L each) from burning 2 types of tropical wood for 10-45 minutes. These indicate BMB emissions of MCF could be as high as 10 Gg/yr!
 
-\subsection{“The history of methyl chloroform emissions: 1951-2000”, McCulloch & Midgley (2001)}
+\subsection{\textit{“The history of methyl chloroform emissions: 1951-2000”}, McCulloch $\&$ Midgley (2001)}
 A comprehensive overview of MCF production and the discrepancies with emissions. The data obtained from companies (period 1970-1995) already contained information on the part of production that would release rapidly (<1yr), medium (1-2yr) and stockpiling (>2yr).
+
 Two datasets exist: Production and sales by OECD producers (1970 -1995) and a dataset consisting of consumption and production reported by individual countries to UNEP (1989, 1992-1998). Some countries that report to UNEP are not in the OECD, but they are also not big producers.
+
 For most regions MCF consumption indeed seemed to have stopped by 2000, excepting China and India (11 Gg/yr) and the SH (1 Gg/yr).
-Uncertainty in production is estimated at 2.1$%$, while timing of emissions knows larger uncertainties, especially after 1990, when production was reduced stepwise. 
+
+Uncertainty in production is estimated at 2.1$\%$, while timing of emissions knows larger uncertainties, especially after 1990, when production was reduced stepwise. 
 A simple model shows observations are above what is expected from the model.
 
-\subsection{“Origin of anthropogenic hydrocarbons and halocarbons in the summertime European outflow (in Greece 2001)”,  Gros et al. (2003)}
+\subsection{\textit{“Origin of anthropogenic hydrocarbons and halocarbons in the summertime European outflow (in Greece 2001)”},  Gros et al. (2003)}
 During a 20-day measurement campaign they found 3 events where MCF concentrations where significantly elevated, indicating continuing emissions in different European countries.
 
-\subsection{“Evidence of continuing methyl chloroform emissions from the United States”, Millet & Goldstein (2004)}
+\subsection{\textit{“Evidence of continuing methyl chloroform emissions from the United States”}, Millet $\&$ Goldstein (2004)}
 They find lingering US MCF emissions in 3 out of 4 measurement sites, which are correlated with C5 and C6 alkenes, which are, like MCF, often used in solvents. Estimated global emissions: tens of Gg/yr.
 
-\subsection{“Recent changes in the air-sea exchange of methyl chloroform”, Wennberg et al. (2004)}
+\subsection{\textit{“Recent changes in the air-sea exchange of methyl chloroform”}, Wennberg et al. (2004)}
 Since MCF is only hydrolysed in warm waters, the high solubility in cold higher-latitude water makes that MCF is stored in ocean water. Their research points to mid/high-latitude oceans being an MCF source since atmospheric MCF concentrations have been plummeting. A major uncertainty is the MCF hydrolysis rate in cold water. They say difficulties (or rather, sensitivities) in the MCF budget maybe make it impossible to use it for OH tracing. I think their estimate of ocean emissions is ~5Gg/yr.
 
-\subsection{“Low European methyl chloroform emissions inferred from long-term atmospheric measurements”, Reimann et al. (2005)}
+\subsection{\textit{“Low European methyl chloroform emissions inferred from long-term atmospheric measurements”}, Reimann et al. (2005)}
 They include Jungfraujoch data, in addition to that from Mace Head (Krol et al., 2003) to estimate European MCF emissions. They look at the excess MCF:CO ratio and upscale by using known European CO emissions. They estimate much lower emissions than Krol (2003), but slightly higher than consumption-based statistics. Their MCF emission estimate is inconsistent with a zero-OH trend.  They attribute Krol’s result, which only considered 4 days, to an anomalous period in emissions.
 
 \section{Methane/CH$_4$}
 
-\subsection{“A note on isotopic ratios and the global methane budget”, Tans et al. (1997)}
+\subsection{\textit{“A note on isotopic ratios and the global methane budget”}, Tans et al. (1997)}
 In a simple two-box model they show that the global methane concentration adjusts much more quickly to a change in source configuration than the isotopic values of methane do: They react to sources integrated over a relatively long period.
+
 Paper explanation: Isotope ratio response depends on background concentration. My explanation: Say you add a lot of methane: OH destruction will immediately increase a lot; transport too -> Quick return to equilibrium. Say you do not change total methane emissions, but only shift the isotopic composition. OH destruction/transport remains the same, so it takes a long time before isotope ratios are constant.
 
-\subsection{“Contribution of anthropogenic and natural sources to atmospheric methane variability”, Bousquet et al. (2006)}
+\subsection{\textit{“Contribution of anthropogenic and natural sources to atmospheric methane variability”}, Bousquet et al. (2006)}
 They analysed the contribution of different sources to the strong interannual methane variability. Turns out wetland emissions are dominant. For the stagnation of atmospheric methane levels, they indicate decreased wetland emissions, whereas anthropogenic emissions have continued to increase since 1999: not in agreement with Schaeffer!
+
 They first did an MCF inversion to determine OH variability (Bousquet 2005). They found inversions capture yearly changes in regional CH4 fluxes better than their longterm mean. D13C data was also used.
 
-\subsection{“Renewed growth of atmospheric methane”, Rigby et al. (2008)}
+\subsection{\textit{“Renewed growth of atmospheric methane”}, Rigby et al. (2008)}
 They report an end of the CH4 stagnation (1999-2006). An increase in emissions and a decrease in OH are both investigated. The renewed growth takes place in both hemispheres simultaneously, indicating that either emissions in both hemispheres increased in this way too, or that OH decreased in one or both of the hemispheres.
 They investigate what the required increase in emissions/decrease in the OH sink would have to be to result in the observed growth. If OH is fixed, they find CH4 emissions have to increase in both hemispheres significantly. If they use OH derived from MCF, then the required increase in emissions is less significant and more shifted towards the northern hemisphere.
 
-\subsection{“Modelling of global and regional CH4 emissions using SCIAMACHY satellite retrievals”, Bergamaschi et al. (2009)}
+\subsection{\textit{“Modelling of global and regional CH4 emissions using SCIAMACHY satellite retrievals”}, Bergamaschi et al. (2009)}
 This paper studies CH4 sources using high spatial resolution, obtained through the zooming option in the TM5 model and SCIAMACHY satellite retrievals. The latitude and season bias correction they have to apply is now much smaller than for previous retrievals. They compare an inversion based on bottom-up emission inventories to the satellite retrievals and find much better consistency compared to previous satellite retrievals. OH strongly affects large-scale emission patterns. Interesting: They prevent negative emissions by an asymmetric probability distribution for E.
 
-\subsection{“Three decades of global methane sources and sinks”, Kirschke et al. (2013)}
+\subsection{\textit{“Three decades of global methane sources and sinks”}, Kirschke et al. (2013)}
 A comprehensive review of research on methane, including the OH sink. They somehow reach the same conclusions as the recent isotope studies without isotopes (stable/decreasing anthropogenic emissions and stable/increasing natural emissions). They summarize current uncertainties in the sink(s) and sources of methane, emphasising the differences between bottom-up and top-down.
+
 They point out where improvements are most necessary. (1.) Wetland emissions and their sensitivity to changes in precipitation and temperature. (2.) There is not enough data to constrain emissions by region and process. (3.) Past evolution of CH4 sources is poorly understood. (4.) Top-down errors are poorly quantified.
 
-\subsection{“Estimating global and North American methane emissions with high resolution using GOSAT satellite data”, Turner et al. (2015)}
+\subsection{\textit{“Estimating global and North American methane emissions with high resolution using GOSAT satellite data”}, Turner et al. (2015)}
 The paper Sudanshu is critical about (why?). They use GOSAT data to obtain really high resolution CH4 emissions for the US and less high resolution for global. First they compare GOSAT to the result of putting surface emissions from many sources in a CTM (GEOS-Chem). This reveals a bias. They somehow attribute this to GEOS-Chem and its prior estimate. They find that the EDGAR database underestimates anthropogenic methane emissions. Because of the high spatial resolution they can pinpoint where the large-scale overestimation originates from, and thus which sources are likely to contribute.
 
-\subsection{“A 21st-century shift from fossil-fuel to biogenic methane emissions indicated by 13CH4”, Schaefer et al. (2016)}
+\subsection{\textit{“A 21st-century shift from fossil-fuel to biogenic methane emissions indicated by 13CH4”}, Schaefer et al. (2016)}
 The study shows that the pre-2000 methane increase coincided with a similar increase in d13CH4, the 2000-2006 plateau coincided with a plateau in d13CH4, but the renewed growth coincides with a decrease in d13CH4. This indicates a shift in CH4 sources and/or sinks. They use a very simple yearly-averaged 1-box model that uses observations as a prior and inversely calculates the best emissions. Then the best emissions are followed up to some event (eg the plateau), where they are fixed in a ‘stabilisation run’. A perturbation is imposed on the SR to fit the observed CH4 concentrations and the d13CH4 of the perturbation is varied.
+
 The best match for the plateau is a reduction in fossil-fuel emissions, preferably with OH variability included. The best guess for the subsequent rise is a perturbation with -59 permil d13C. This could come from a combination of sources and sinks, but the simplest explanation is an increase in biogenic emissions. The geographical distribution of CH4 increase indicates anthropogenic emissions (rice, ruminants) are more important than natural wetland emissions.
 
-\subsection{“Rising atmospheric methane: 2007-2014 growth and isotopic shift”, Nisbet et al. (2016)}
+\subsection{\textit{“Rising atmospheric methane: 2007-2014 growth and isotopic shift”}, Nisbet et al. (2016)}
 Similar to Schaefer, but: 1. They use a four-box model. 2. They only look at the growth period. 3 They do not rule out (tropical) wetland emissions as the cause of the renewed growth. 4. They add more data and use a running budget.
+
 The focus is on the global distribution of methane and d13C changes. In 2007 there was strong growth in the Arctic, likely from wetlands. The rest of the global growth was mostly led by the wider tropics. They say OH alone cannot account for the isotopic interannual variations, whereas the sources (of course) can. 
 The renewed CH4 growth coincides temporally and spatially with unusual meteorological conditions in the tropics. For this reason they propose natural emissions as a more likely source of the additional CH4, since it is more likely to lead to stepwise changes in CH4, as is observed in the atmosphere.
 Because of a known lagged response of d13CH4 to changes in the budget, it is also proposed that the recent 13CH4 drop is more likely to be initiated in the late 90s/early 00s.
+
 A lot of info on different sources and source distributions and isotopic composition of these sources! I think it’s a little less hand-waving than Schaefer also.
 
-\subsection{“Upward revision of global fossil fuel methane emissions based on isotope database”, Schwietzke et al. (2016)}
-Letter to Nature. They revise best estimates for isotope signatures, based on the largest isotope database to date. Based on these revision, they estimate that fossil fuel emissions are not increasing over time, but are 60 to 110$%$ greater than current estimates. Current estimates are mostly from 3D inverse models, which are supposedly biased by prescribed a priori estimates in regions where only sparse observations are available. To close the mass balance, microbial emissions (anthropogenic or natural) have to have increased to account for the renewed CH4 growth. Using TM5 (forward) they find that their source distribution is consistent with the global north-south gradient.
+\subsection{\textit{“Upward revision of global fossil fuel methane emissions based on isotope database”}, Schwietzke et al. (2016)}
+Letter to Nature. They revise best estimates for isotope signatures, based on the largest isotope database to date. Based on these revision, they estimate that fossil fuel emissions are not increasing over time, but are 60 to 110$\%$ greater than current estimates. Current estimates are mostly from 3D inverse models, which are supposedly biased by prescribed a priori estimates in regions where only sparse observations are available. To close the mass balance, microbial emissions (anthropogenic or natural) have to have increased to account for the renewed CH4 growth. Using TM5 (forward) they find that their source distribution is consistent with the global north-south gradient.
 
 \section{TM5 descriptions}
 
-\subsection{“The global nested chemistry-zoom model TM5: algorithm and applications”, Krol et al. (2005)}
+\subsection{\textit{“The global nested chemistry-zoom model TM5: algorithm and applications”}, Krol et al. (2005)}
 For many local studies global transport is import. However, one cannot make a global model with a high resolution everywhere. The concept of zooming entails that one uses a high resolution in areas of interest (e.g. NH) and a coarser resolution in less important areas (e.g. South Pole). Two-way zooming is where one feeds data from the global scale into the zoomed areas, and simultaneously does so the other way around.
+
 Mostly an area of interest is identified. This area will be run at the highest resolution and the global domain at the lowest. Though theoretically not necessary, an intermediary region is run at a medium resolution for a smooth transition. Vertical resolution is the same in all areas.
 
-\subsection{“The global chemistry transport model TM5: description and evaluation of the tropospheric chemistry 3.0”, Huijnen et al. (2010)}
+\subsection{\textit{“The global chemistry transport model TM5: description and evaluation of the tropospheric chemistry 3.0”}, Huijnen et al. (2010)}
 TM5 is used in a wide array of applications. All applications use the same model discretization, operator splitting, treatment of meteorological fields and mass conserving tracer transport. 
+
 Includes most chemical reactions (+reaction constants) included in this version of TM5. To limit the number of reactions, species are grouped according to chemical properties.
 
 
